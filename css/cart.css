@@ -1,0 +1,49 @@
+body {
+    background-color: #eaeaea;
+    font-size: 14px;
+  }
+  
+  @media screen and (min-width: 994px) {
+    .form-control {
+      width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 994px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+
+  /* ROW CART */
+  .row-products{
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px;
+}
+/* AKHIR ROW CART */
+
+/* IMG CART */
+.img-cart{
+  width: 70px;
+}
+/* AKHIR IMG CART */
+
+/* TH-HEADER */
+.th-header{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* AKHIR TH HEADER */
+
+
+
+/* RESPONSIVE TABLE CK */
+@media only screen and (min-width: 768px;){
+
+  #table-checkout{
+    width: 40%;
+    }
+}
+/* AKHIR RESPONSIVE TABLE CK */

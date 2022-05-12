@@ -1,0 +1,44 @@
+body {
+  background-color: #eaeaea;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 994px) {
+  .form-control {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 994px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/*KATEGORI */
+.img-kategori {
+  width: 50px;
+}
+
+.img-kategori:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+.row-container {
+  margin: 0px;
+  background-color: #fff;
+}
+/* AKHIR KATEGORI */
+
+/* PRODUCTS */
+.card:hover{
+  border: 1px solid #003bff;
+  transform: scale(1.2);
+  transition: 0.2s;
+
+}
+.btn{
+  background-color: #003bff;
+}
+/* AKHIR PRODUCTS */

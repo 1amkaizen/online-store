@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!-- Bootstrap Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+  <title>Products</title>
+  <link rel="stylesheet" href="css/cart.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003bff">
+    <div class="container">
+      <a class="navbar-brand" href="#">My <b>Store</b> </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <form class="d-flex ms-auto my-4">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-light" type="submit"><i class="bi bi-search"></i></button>
+        </form>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product.html">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- AKHIR NAVBAR -->
+
+  <!-- BREADCUMB -->
+  <div class="container">
+    <nav aria-label="breadcrumb" style="background-color: #fff;" class="mt-3">
+      <ol class="breadcrumb p-3">
+        <li class="breadcrumb-item"><a href="index.html" class="text-decoration-none">Home</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Cart</li>
+      </ol>
+    </nav>
+  </div>
+
+  <!-- AKHIR BREADCUMB -->
+
+  <!-- AWAL CART -->
+  <div class="container">
+    <div class="row row-products">
+      <div class="col table-responsive mt-4 mx-3">
+        <table class="table">
+          <thead class="table-secondary">
+            <tr>
+              <th scope="col" class="th-header">Hapus</th>
+              <th scope="col" class="th-header">Gambar</th>
+              <th scope="col" class="th-header">Products</th>
+              <th scope="col" class="th-header">Harga</th>
+              <th scope="col" class="th-header">Jumlah</th>
+              <th scope="col" class="th-header">Sub-Total</th>
+            </tr>
+          </thead>
+          <tbody class="align-middle">
+            <tr>
+              <th scope="row"> <a href="#"><i class="bi bi-x-circle fs-4"></i> </a> </th>
+              <td> <img src="assets_2/produk/produk2.jpg" class="img-cart" alt=""> </td>
+              <td>Kemeja Pria</td>
+              <td>Rp.90.000</td>
+              <td>
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-dash"></i>
+                </button>
+                <span class="mx-2">2</span>
+
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-plus"></i>
+                </button>
+              </td>
+              <td>Rp.90.000</td>
+            </tr>
+
+            <tr>
+              <th scope="row"> <a href="#"><i class="bi bi-x-circle fs-4"></i> </a> </th>
+              <td> <img src="assets_2/produk/produk3.jpg" class="img-cart" alt=""> </td>
+              <td>Sepatu Pria</td>
+              <td>Rp.150.000</td>
+              <td>
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-dash"></i>
+                </button>
+                <span class="mx-2">2</span>
+
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-plus"></i>
+                </button>
+              </td>
+              <td>Rp.150.000</td>
+            </tr>
+
+            <tr>
+              <th scope="row"> <a href="#"><i class="bi bi-x-circle fs-4"></i> </a> </th>
+              <td> <img src="assets_2/produk/produk4.jpg" class="img-cart" alt=""> </td>
+              <td>Jam Tangan Pria</td>
+              <td>Rp.150.000</td>
+              <td>
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-dash"></i>
+                </button>
+                <span class="mx-2">2</span>
+
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-plus"></i>
+                </button>
+              </td>
+              <td>Rp.150.000</td>
+            </tr>
+
+            <tr>
+              <th scope="row"> <a href="#"><i class="bi bi-x-circle fs-4"></i> </a> </th>
+              <td> <img src="assets_2/produk/produk9.jpg" class="img-cart" alt=""> </td>
+              <td> Mechanichal Keyboard</td>
+              <td>Rp.275.000</td>
+              <td>
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-dash"></i>
+                </button>
+                <span class="mx-2">2</span>
+
+                <button type="button" class="btn btn-dark btn-sm">
+                  <i class="bi bi-plus"></i>
+                </button>
+              </td>
+              <td>Rp.275.000</td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- ROW KEDUA -->
+
+    <div class="row row-products">
+      <div class="col table-responsive">
+        <table class="table ms-auto text-center mb-4 mt-3 mx-3" id="table-checkout">
+          <thead class="table-secondary">
+            <tr>
+              <th scope="col" colspan="2" class="th-header">Total Keranjang Belanja</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="fw-bold th-header">Total Harga</td>
+              <td class="th-header">Rp.2.000.000</td>
+            </tr>
+            <tr>
+              <td colspan="2" class="th-header">
+                <div class="btn-checkout d-grid">
+                  <button class="btn btn-dark btn-sm mx-4">Checkout</button>
+                </div>
+              </td>
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <!-- AKHIR ROW KEDUA -->
+  </div>
+  <!-- AKHIR CART -->
+
+
+
+
+
+
+
+
+
+  <!-- FOOTER -->
+  <footer class="bg-light p-5 mt-5">
+    <div class="container">
+      <div class="row mt-2">
+        <div class="col-md-6 text-md-start text-center pt-2 pb-2">
+          <a href="#" class="text-decoration-none">
+            <img src="logo/instagram.png" style="width: 40px;" alt="facebook">
+          </a>
+          <span class="ps-1">Created with <i class="bi bi-heart-fill text-danger"></i> by <a
+              href="https://instagram.com/zaenalarifin" class="fw-bold text-decoration-none">Zaenal Arifin</a> </span>
+        </div>
+        <!-- SOCIAL ICON -->
+        <div class="col-md-6 text-md-end text-center pt-2 pb-2">
+          <a href="#" class="text-decoration-none">
+            <img src="logo/facebook.png" class="ms-2" style="width: 32px;" alt="facebook">
+          </a>
+          <a href="#" class="text-decoration-none">
+            <img src="logo/instagram.png" class="ms-2" style="width: 30px;" alt="facebook">
+          </a>
+          <a href="#" class="text-decoration-none">
+            <img src="logo/twitter.png" class="ms-2" style="width: 30px;" alt="facebook">
+          </a>
+          <a href="#" class="text-decoration-none">
+            <img src="logo/linkedin.png" class="ms-2" style="width: 30px;" alt="facebook">
+          </a>
+        </div>
+        <!-- AKHIR SOCIAL ICON -->
+      </div>
+    </div>
+  </footer>
+  <!-- AKHIR FOOTER -->
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

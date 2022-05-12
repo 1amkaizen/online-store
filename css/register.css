@@ -1,0 +1,38 @@
+body {
+  background-color: #f6f7fb;
+}
+
+.form-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 120px;
+  box-shadow: 5px 5px 10px 0px #000;
+  border-radius: 15px;
+  width: 700px;
+  height: 550px;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn {
+  border-radius: 10px;
+}
+
+.form-control {
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.input-group-text {
+  border-radius: 10px;
+}

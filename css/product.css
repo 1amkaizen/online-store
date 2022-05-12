@@ -1,0 +1,78 @@
+body {
+    background-color: #eaeaea;
+    font-size: 14px;
+  }
+  
+  @media screen and (min-width: 994px) {
+    .form-control {
+      width: 350px;
+    }
+  }
+  
+  @media screen and (max-width: 994px) {
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+
+  /* GAMBAR PRODUCTS */
+  .row-products{
+      background-color: #fff;
+      margin: 0;
+      padding: 5px;
+      padding-top: 16px;
+
+  }
+
+  .figure-img:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+  }
+
+
+
+
+  /* AKHIR GAMBAR PRODUCTS */
+
+  /* GARIS BAWAH */
+  .garis-bawah{
+      border-bottom: 5px solid #2d2d2d;
+      margin-top: 10px;
+      margin-bottom: 25px;
+  }
+  /* AKHIR GARIS BAWAH */
+
+  /* BUTTON CART/BUY */
+  .btn-custom{
+    padding: 15px;
+    font-size: 14px;
+  }
+  /* AKHIR BUTON CART/BUY */
+
+  /* REVIEW PRODUCTS */
+  .review-img{
+    width: 50px;
+  }
+  .review-name{
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  .review-desc{
+    font-size: 14px;
+  }
+
+  .description{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+.description::-webkit-scrollbar{
+  display: none;
+}
+
+  .review{
+    height: 250px;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+   /* REVIEW PRODUCTS */
